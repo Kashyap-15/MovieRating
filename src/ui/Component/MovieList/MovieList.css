@@ -1,0 +1,8 @@
+.listCard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
+.listTitle{
+    margin: 50px 70px;
+}

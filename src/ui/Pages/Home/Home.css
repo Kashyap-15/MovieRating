@@ -1,0 +1,43 @@
+.Home{
+    margin: 0px 10px; 
+}
+.moviePoster{
+    position: relative;
+    height: 600px;
+}
+.movieImg{
+    margin: auto;
+    display: block;
+    width: 100vw;
+    object-fit: contain;
+    border-radius: 30px;
+    filter: brightness(80%);
+}
+.movieDetails{
+    position: absolute;
+    top: 60%;
+    padding-left: 50px;
+}
+.movieTitle{
+    font-size: 40px;
+    text-align: start;
+    font-weight: 600;
+}
+.movieRelease{
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top:10px;
+}
+.movieRating{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.movieDescription{
+    text-align: start;
+    font-weight: 400;
+    width: 60%;
+    margin-top: 10px;
+}
